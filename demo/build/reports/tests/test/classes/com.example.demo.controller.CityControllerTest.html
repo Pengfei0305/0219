@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CityControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CityControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.demo.controller.html">com.example.demo.controller</a> &gt; CityControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.248s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getCityByIdRequestBody_Returns200()</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getCityByIdRequestBody_ReturnsException()</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getCityByIdRequestParam_Returns200()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getCityByIdRequestParam_ReturnsException()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getCityById_Returns200()</td>
+<td class="success">0.058s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getCityById_ReturnsException()</td>
+<td class="success">0.083s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:51:23.326 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:51:23.333 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:51:23.352 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.controller.CityControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+11:51:23.361 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.controller.CityControllerTest], using SpringBootContextLoader
+11:51:23.363 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.controller.CityControllerTest]: class path resource [com/example/demo/controller/CityControllerTest-context.xml] does not exist
+11:51:23.363 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.controller.CityControllerTest]: class path resource [com/example/demo/controller/CityControllerTestContext.groovy] does not exist
+11:51:23.363 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.controller.CityControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:51:23.364 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.controller.CityControllerTest]: CityControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:51:23.400 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.controller.CityControllerTest]
+11:51:23.440 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/cde/Downloads/Black-master/demo/build/classes/java/main/com/example/demo/DemoApplication.class]
+11:51:23.441 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.controller.CityControllerTest
+11:51:23.442 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.controller.CityControllerTest]: using defaults.
+11:51:23.442 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:51:23.451 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3546f26, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@400eb9d2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@22163874, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@133ea79e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33b3c780, org.springframework.test.context.transaction.TransactionalTestExecutionListener@646280d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15006529, org.springframework.test.context.event.EventPublishingTestExecutionListener@73642240, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e46746b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@697739ee, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fc830c4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2d6c7b5f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@40e4b7b5]
+11:51:23.453 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7f855a69 testClass = CityControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@18adbf77 testClass = CityControllerTest, locations = '{}', classes = '{class com.example.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@5d0a094a, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@e9b715aa, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@ec4c2271, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5617c2c4, [ImportsContextCustomizer@7e774536 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1b7b2e42, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2c16dfd3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@b7b92fa6], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+11:51:23.542 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
+2020-02-19 11:51:23.824  INFO 4577 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-02-19 11:51:23.900  INFO 4577 --- [    Test worker] c.e.demo.controller.CityControllerTest   : No active profile set, falling back to default profiles: default
+2020-02-19 11:51:24.563  INFO 4577 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-19 11:51:24.724  INFO 4577 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.724  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.732  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2020-02-19 11:51:24.750  INFO 4577 --- [    Test worker] c.e.demo.controller.CityControllerTest   : Started CityControllerTest in 1.2 seconds (JVM running for 1.944)
+2020-02-19 11:51:24.793  INFO 4577 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.794  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.794  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-02-19 11:51:24.850  INFO 4577 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.850  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.850  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /getCityByIdPath/1
+       Parameters = {}
+          Headers = []
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.demo.controller.CityController$MockitoMock$1992229665
+           Method = com.example.demo.controller.CityController$MockitoMock$1992229665#getCityById(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;code&quot;:0,&quot;msg&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Naperville1&quot;,&quot;code&quot;:60563},{&quot;id&quot;:2,&quot;name&quot;:&quot;Naperville2&quot;,&quot;code&quot;:60563},{&quot;id&quot;:3,&quot;name&quot;:&quot;Naperville3&quot;,&quot;code&quot;:60563},{&quot;id&quot;:4,&quot;name&quot;:&quot;Naperville4&quot;,&quot;code&quot;:60563}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-02-19 11:51:24.910  INFO 4577 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.910  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.910  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+100
+2020-02-19 11:51:24.930  INFO 4577 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.930  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.931  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-02-19 11:51:24.977  INFO 4577 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.977  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.977  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+1
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /getCityByIdRequestParam
+       Parameters = {id=[1]}
+          Headers = []
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.demo.controller.CityController$MockitoMock$1992229665
+           Method = com.example.demo.controller.CityController$MockitoMock$1992229665#getCityByIdRequestParam(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;code&quot;:0,&quot;msg&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Naperville1&quot;,&quot;code&quot;:60563},{&quot;id&quot;:2,&quot;name&quot;:&quot;Naperville2&quot;,&quot;code&quot;:60563},{&quot;id&quot;:3,&quot;name&quot;:&quot;Naperville3&quot;,&quot;code&quot;:60563},{&quot;id&quot;:4,&quot;name&quot;:&quot;Naperville4&quot;,&quot;code&quot;:60563}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-02-19 11:51:24.999  INFO 4577 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-02-19 11:51:24.999  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-19 11:51:24.999  INFO 4577 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /getCityByIdRequestBody
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=utf-8&quot;, Content-Length:&quot;10&quot;]
+             Body = {&quot;id&quot;:&quot;1&quot;}
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.demo.controller.CityController$MockitoMock$1992229665
+           Method = com.example.demo.controller.CityController$MockitoMock$1992229665#getCityByIdRequestBody(Id)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;code&quot;:0,&quot;msg&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Naperville1&quot;,&quot;code&quot;:60563},{&quot;id&quot;:2,&quot;name&quot;:&quot;Naperville2&quot;,&quot;code&quot;:60563},{&quot;id&quot;:3,&quot;name&quot;:&quot;Naperville3&quot;,&quot;code&quot;:60563},{&quot;id&quot;:4,&quot;name&quot;:&quot;Naperville4&quot;,&quot;code&quot;:60563}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at Feb 19, 2020, 11:51:25 AM</p>
+</div>
+</div>
+</body>
+</html>
