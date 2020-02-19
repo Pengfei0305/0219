@@ -1,0 +1,6 @@
+server:
+  port: 8013
+
+client:
+  restUrl: http://localhost:8081
+  feignUrl: http://localhost:8081
